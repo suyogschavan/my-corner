@@ -32,6 +32,7 @@ import SectionContainer from "@/components/SectionContainer";
 // import { allBlogs } from "contentlayer/generated";
 import { Suspense } from "react";
 import Works from "@/components/work/Works";
+import ResumeScroll from "@/components/ResumeScroll";
 
 export default function Page() {
   return (
@@ -39,6 +40,7 @@ export default function Page() {
       <Hero />
       <Intro />
       <Works />
+      {/* <ResumeScroll /> */}
     </ScrollProvider>
   );
 }
