@@ -1,10 +1,13 @@
 import ProjectParalax from "@/components/ProjectParalax";
+import { ScrollProvider } from "@/components/Providers/ScrollProvider";
 import React from "react";
 
 const page = () => {
   return (
     <div>
-      <ProjectParalax />
+      <ScrollProvider>
+        <ProjectParalax />
+      </ScrollProvider>
     </div>
   );
 };

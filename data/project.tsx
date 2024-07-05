@@ -1,95 +1,95 @@
 export const projects = [
   {
-    title: "Moonbeam",
-    link: "https://gomoonbeam.com",
+    title: "JobLister",
+    link: "https://github.com/suyogschavan/jobLister",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/moonbeam.png",
+      "https://github.com/suyogschavan/jobLister/blob/main/public/JobLister.png?raw=true",
   },
   {
-    title: "Cursor",
-    link: "https://cursor.so",
+    title: "EEG Emotion Classification",
+    link: "https://github.com/suyogschavan/Caps-Project-Emotion-Classification-using-EEG",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cursor.png",
+      "https://github.com/suyogschavan/Caps-Project-Emotion-Classification-using-EEG/blob/main/Outputs/ICA_components.png?raw=true",
   },
   {
-    title: "Rogue",
-    link: "https://userogue.com",
+    title: "Portfolio website #1",
+    link: "https://github.com/suyogschavan/suyogschavan.github.io/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/rogue.png",
+      "https://github.com/suyogschavan/suyogschavan.github.io/blob/main/assets/img/port.png?raw=true",
   },
+  // {
+  //   title: "E-commerce Backend",
+  //   link: "https://github.com/suyogschavan/e_comm/",
+  //   thumbnail:
+  //     "https://github.com/suyogschavan/e_comm/blob/main/helpers/e_comm.png?raw=true",
+  // },
 
   {
-    title: "Editorially",
-    link: "https://editorially.org",
+    title: "Resume Builder (PHP)",
+    link: "https://github.com/suyogschavan/PHP/blob/main/MICROPROJECT",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editorially.png",
+      "https://github.com/suyogschavan/PHP/blob/main/MICROPROJECT/maxresdefault.jpg?raw=true",
   },
   {
-    title: "Editrix AI",
-    link: "https://editrix.ai",
+    title: "G-Insight",
+    link: "https://github.com/suyogschavan/G-Insight",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editrix.png",
-  },
-  {
-    title: "Pixel Perfect",
-    link: "https://app.pixelperfect.quest",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/pixelperfect.png",
+      "https://github.com/suyogschavan/G-Insight/blob/master/public/g-insight.png?raw=true",
   },
 
-  {
-    title: "Algochurn",
-    link: "https://algochurn.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/algochurn.png",
-  },
-  {
-    title: "Aceternity UI",
-    link: "https://ui.aceternity.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/aceternityui.png",
-  },
-  {
-    title: "Tailwind Master Kit",
-    link: "https://tailwindmasterkit.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/tailwindmasterkit.png",
-  },
-  {
-    title: "SmartBridge",
-    link: "https://smartbridgetech.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/smartbridge.png",
-  },
-  {
-    title: "Renderwork Studio",
-    link: "https://renderwork.studio",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/renderwork.png",
-  },
+  //   {
+  //     title: "Pedometer (Android)",
+  //     link: "https://github.com/suyogschavan/MAD/blob/main/SELF_MicroProject",
+  //     thumbnail:
+  //       "https://github.com/suyogschavan/MAD/blob/main/SELF_MicroProject/pedometer.png?raw=true",
+  //   },
+  //   {
+  //     title: "Aceternity UI",
+  //     link: "https://ui.aceternity.com",
+  //     thumbnail:
+  //       "https://github.com/suyogschavan/jobLister/blob/main/public/JobLister.png?raw=true",
+  //   },
+  //   {
+  //     title: "Tailwind Master Kit",
+  //     link: "https://tailwindmasterkit.com",
+  //     thumbnail:
+  //       "https://github.com/suyogschavan/jobLister/blob/main/public/JobLister.png?raw=true",
+  //   },
+  //   {
+  //     title: "SmartBridge",
+  //     link: "https://smartbridgetech.com",
+  //     thumbnail:
+  //       "https://github.com/suyogschavan/jobLister/blob/main/public/JobLister.png?raw=true",
+  //   },
+  //   {
+  //     title: "Renderwork Studio",
+  //     link: "https://renderwork.studio",
+  //     thumbnail:
+  //       "https://github.com/suyogschavan/jobLister/blob/main/public/JobLister.png?raw=true",
+  //   },
 
-  {
-    title: "Creme Digital",
-    link: "https://cremedigital.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cremedigital.png",
-  },
-  {
-    title: "Golden Bells Academy",
-    link: "https://goldenbellsacademy.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/goldenbellsacademy.png",
-  },
-  {
-    title: "Invoker Labs",
-    link: "https://invoker.lol",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/invoker.png",
-  },
-  {
-    title: "E Free Invoice",
-    link: "https://efreeinvoice.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/efreeinvoice.png",
-  },
+  //   {
+  //     title: "Creme Digital",
+  //     link: "https://cremedigital.com",
+  //     thumbnail:
+  //       "https://github.com/suyogschavan/jobLister/blob/main/public/JobLister.png?raw=true",
+  //   },
+  //   {
+  //     title: "Golden Bells Academy",
+  //     link: "https://goldenbellsacademy.com",
+  //     thumbnail:
+  //       "https://github.com/suyogschavan/jobLister/blob/main/public/JobLister.png?raw=true",
+  //   },
+  //   {
+  //     title: "Invoker Labs",
+  //     link: "https://invoker.lol",
+  //     thumbnail:
+  //       "https://github.com/suyogschavan/jobLister/blob/main/public/JobLister.png?raw=true",
+  //   },
+  //   {
+  //     title: "E Free Invoice",
+  //     link: "https://efreeinvoice.com",
+  //     thumbnail:
+  //       "https://github.com/suyogschavan/jobLister/blob/main/public/JobLister.png?raw=true",
+  //   },
 ];

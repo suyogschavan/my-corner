@@ -31,12 +31,14 @@ import SectionContainer from "@/components/SectionContainer";
 // import { allCoreContent, sortedBlogPost } from "@/lib/utils/contentlayer";
 // import { allBlogs } from "contentlayer/generated";
 import { Suspense } from "react";
+import Works from "@/components/work/Works";
 
 export default function Page() {
   return (
     <ScrollProvider>
       <Hero />
       <Intro />
+      <Works />
     </ScrollProvider>
   );
 }
