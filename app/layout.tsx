@@ -1,3 +1,7 @@
+import "@/css/prism.css";
+import "@/css/tailwind.css";
+import "@fontsource/mukta";
+
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";

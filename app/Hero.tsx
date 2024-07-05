@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import { HeroHighlight, Highlight } from "@/components/ui/HeroHighlight";
 import { FlipWords } from "@/components/ui/FlipWords";
+import Link from "next/link";
 
 export function Hero() {
   const words = ["better", "cute", "beautiful", "modern"];
@@ -30,14 +31,14 @@ export function Hero() {
         </Highlight>
         <br />
         <div className="">
-          <a href="/projects" className="text-center ">
+          <Link href="/projects" className="text-center ">
             <button className="button " data-text="Awesome">
               <span className="actual-text ">&nbsp;Projects&nbsp;</span>
               <span aria-hidden="true" className="rounded-lg hover-text">
                 &nbsp;projects&nbsp;
               </span>
             </button>
-          </a>
+          </Link>
         </div>
       </motion.h1>
     </HeroHighlight>
