@@ -29,6 +29,7 @@ export default function WorkContent({ work, progress = 0 }: WorkContentProps) {
             alt={title}
             width={image.width}
             height={image.height}
+            unoptimized={true}
           />
         </div>
       </WorkRight>

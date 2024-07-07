@@ -36,7 +36,7 @@ export default function TileWrapper({ children, numOfPages }: WrapperProps) {
         className="relative z-10 bg-black dark:bg-white"
         ref={refContainer}
         style={{
-          height: numOfPages * 100 + "vh",
+          height: numOfPages * 50 + "vh",
         }}
       >
         {children}
