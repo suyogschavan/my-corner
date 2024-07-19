@@ -1,14 +1,12 @@
-import Link from "next/link";
 import React from "react";
+import { LinkPreview } from "./ui/LinkPreview";
+import Link from "./Link";
 
 const MyLink = ({ href, children }: { href: string; children: string }) => {
   return (
-    <Link
-      href={href}
-      className="underline-magical text-md w-max cursor-pointer sm:text-lg md:text xl:text-xl"
-    >
-      {children}
-    </Link>
+    <LinkPreview url={href}>
+      <Link href={href}>{children}</Link>
+    </LinkPreview>
   );
 };
 

@@ -9,11 +9,13 @@ const TimeLineElement = ({
 }) => {
   return (
     <div>
-      <div className="timeline-element font-extrabold">{year}</div>
-      <ul className="list-disc pl-7 pt-3 text-sm font-extralight">
-        <li className="pb-1">{children}</li>
+      <div className="timeline-element font-extrabold text-2xl pt-5">
+        {year}
+      </div>
+      <ul className="list-disc pl-7 pt-4 pb-6 md:text-lg sm:text-sm  ">
+        {children}
       </ul>
-      <hr />
+      <hr className="" />
     </div>
   );
 };
