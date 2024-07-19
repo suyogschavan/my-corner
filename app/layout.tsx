@@ -1,6 +1,7 @@
 import "@/css/prism.css";
 import "@/css/tailwind.css";
 import "@fontsource/mukta";
+import "animate.css";
 
 // import Analytics from "@/components/Analytics";
 import Footer from "@/components/Footer";

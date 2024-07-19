@@ -27,14 +27,17 @@ import { ScrollProvider } from "@/components/Providers/ScrollProvider";
 import SectionContainer from "@/components/SectionContainer";
 import { Suspense } from "react";
 import Works from "@/components/work/Works";
+import MainLayout from "@/components/layouts/MainLayout";
 
 export default function Page() {
   return (
+    // <MainLayout>
     <ScrollProvider>
       <Hero />
       <Intro />
       <Works />
       {/* <ResumeScroll /> */}
     </ScrollProvider>
+    // </MainLayout>
   );
 }
