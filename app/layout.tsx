@@ -8,6 +8,7 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import LenisProvider from "@/components/Providers/LenisProvider";
 import ThemeProvider from "@/components/Providers/ThemeProvider";
+import { Analytics } from "@vercel/analytics/react"
 
 export const metadata = {
   title: "Suyog's WebCorner",
@@ -53,6 +54,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
           <Footer />
           {/* <Analytics /> */}
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );

@@ -68,11 +68,11 @@ export default function Intro() {
             I thrive on turning complex challenges into seamless user experiences.
 
           </span>
-          <div className="text-black">
+          <div className=" introText">
           {/* <MyLink href="https://suyog.tech/projects"  >See some of my projects</MyLink> */}
           <Link
                 href="/projects"
-                className="underline-magical text-black text-md w-max cursor-pointer sm:text-lg md:text-xl xl:text-2xl"
+                className="underline-magical  text-md w-max cursor-pointer sm:text-lg md:text-xl xl:text-2xl"
               >
                 see my work &rarr;
               </Link>
