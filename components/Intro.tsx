@@ -2,6 +2,8 @@
 
 import { useLenis } from "@studio-freight/react-lenis";
 import { useRef, useState } from "react";
+import MyLink from "./MyLink";
+import Link from "next/link";
 
 function opacityForBlock(sectionProgress: number, blockNumber: number) {
   const progress = sectionProgress - blockNumber;
@@ -57,16 +59,24 @@ export default function Intro() {
             className="introText inline-block after:content-['_']"
             style={{ opacity: opacityForBlock(progress, 1) }}
           >
-            I use my passion and skills to build digital products and
-            experiences.
+            I&apos;m a tech enthusiast who loves crafting sleek, scalable web solutions using Node.js, MongoDB, and the MERN stack. 
           </span>
           <span
             className="introText inline-block"
             style={{ opacity: opacityForBlock(progress, 2) }}
           >
-            I&apos;m passionate about cutting-edge, pixel perfect UI and
-            intuitively implemented UX.
+            I thrive on turning complex challenges into seamless user experiences.
+
           </span>
+          <div className="text-black">
+          {/* <MyLink href="https://suyog.tech/projects"  >See some of my projects</MyLink> */}
+          <Link
+                href="/about"
+                className="underline-magical text-black text-md w-max cursor-pointer sm:text-lg md:text-xl xl:text-2xl"
+              >
+                see my work &rarr;
+              </Link>
+          </div>
         </div>
       </div>
     </div>

@@ -3,6 +3,8 @@ import { WorkContainer } from "./WorkContainer";
 import { WorkLeft } from "./WorkLeft";
 import { WorkRight } from "./WorkRight";
 import { WorkTile } from "./workTiles";
+import MyLink from "../MyLink";
+import Link from "next/link";
 
 interface WorkContentProps {
   work: WorkTile;
@@ -21,6 +23,15 @@ export default function WorkContent({ work, progress = 0 }: WorkContentProps) {
         <span className="text-4xl font-bold tracking-tight md:text-5xl xl:text-6xl">
           {title}
         </span>
+        <br />
+          
+          {/* <MyLink href="http://www.sinhgad.edu/#images">SCOE </MyLink>
+          <Link
+                href="/about"
+                className="underline-magical text-md w-max cursor-pointer sm:text-lg md:text-xl xl:text-2xl"
+              >
+                Read more about me &rarr;
+              </Link> */}
       </WorkLeft>
       <WorkRight progress={progress}>
         <div className="drop-shadow-2xl sm:mt-10 md:mt-24">

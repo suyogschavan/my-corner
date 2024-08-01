@@ -142,6 +142,7 @@ const MouseImageTrail = ({
       {children}
 
       {images.map((img, index) => (
+        // not using Image from next bcz it's throwing error to have a width attribute and I don't know why even if I gave it it still shows the same damn error. And yeah I also checked on chatGPT, stackOverflow etc. still no luck 
         <img
           className="pointer-events-none   absolute left-0 top-0 md:size-40 lg:size-60 sm:size-40  rounded-xl border-2 border-pink-500 bg-neutral-900 object-cover opacity-0"
           src={img}

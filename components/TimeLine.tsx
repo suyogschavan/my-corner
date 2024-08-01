@@ -8,7 +8,7 @@ const TimeLine = () => {
       <h1 className="font-extrabold text-3xl pb-5">Timeline</h1>
       <TimeLineElement year="2024">
         <li className="pb-1">
-          Started working as a full stack intern at{" "}
+          Worked as a full stack intern at{" "}
           <MyLink href="https://www.linkedin.com/in/suyogchavan">
             TwentyNineth
           </MyLink>{" "}
