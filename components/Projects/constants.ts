@@ -30,18 +30,11 @@ export const projects: Project[] = [
     role: "Fullstack Developer",
   },
   {
-    title: "EEG Data analysis",
-    src: "eeg.png",
-    color: "#dbeafe",
-    url: "https://www.jointopo.com/",
-    role: "Backend Developer",
-  },
-  {
-    title: "Suyog's webcorner",
-    src: "port.png",
-    color: "#ddd6fe",
-    url: "https://github.com/suyogschavan/my-corner",
-    role: "Frontend Developer",
+    title: "Multiplayer PingPong ",
+    src: "pingpong.jpg",
+    color: "#ecfccb",
+    url: "https://pingpong-sooty.vercel.app/",
+    role: "Fullstack Developer",
   },
   {
     title: "Licence Plate Detector",
@@ -51,10 +44,18 @@ export const projects: Project[] = [
     role: "Python Developer",
   },
   {
-    title: "Snakegame",
-    src: "JobLister.png",
-    color: "#ecfccb",
-    url: "https://snakegame.dalelarroder.com/",
+    title: "Personal webcorner",
+    src: "port.png",
+    color: "#ddd6fe",
+    url: "https://github.com/suyogschavan/my-corner",
     role: "Frontend Developer",
   },
+  {
+    title: "EEG Data analysis",
+    src: "eeg.png",
+    color: "#dbeafe",
+    url: "https://www.jointopo.com/",
+    role: "Backend Developer",
+  },
+  
 ];
