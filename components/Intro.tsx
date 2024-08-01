@@ -71,7 +71,7 @@ export default function Intro() {
           <div className="text-black">
           {/* <MyLink href="https://suyog.tech/projects"  >See some of my projects</MyLink> */}
           <Link
-                href="/about"
+                href="/projects"
                 className="underline-magical text-black text-md w-max cursor-pointer sm:text-lg md:text-xl xl:text-2xl"
               >
                 see my work &rarr;
