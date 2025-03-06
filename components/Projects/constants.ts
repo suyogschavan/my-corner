@@ -2,6 +2,13 @@ import { Project } from "./types";
 
 export const projects: Project[] = [
   {
+    title: "URL Scraper API with celery & redis",
+    src: "urlScraper.png",
+    color: "#dbeafe",
+    url: "https://csv-url-metadata-scraper.onrender.com/docs",
+    role: "Backend Developer",
+  },
+  {
     title: "LinkedIn Job Scrapper",
     src: "scrapper.png",
     color: "#dbeafe",

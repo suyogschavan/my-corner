@@ -53,19 +53,19 @@ export default function Intro() {
             className="introText"
             style={{ opacity: opacityForBlock(progress, 0) }}
           >
-            I love coding.
+            I make backends powerful & automation effortless.
           </div>
           <span
             className="introText inline-block after:content-['_']"
             style={{ opacity: opacityForBlock(progress, 1) }}
           >
-            I&apos;m a tech enthusiast who loves crafting sleek, scalable web solutions using Node.js, MongoDB, and the MERN stack. 
+            Passionate about building seamless, scalable systems.
           </span>
           <span
             className="introText inline-block"
             style={{ opacity: opacityForBlock(progress, 2) }}
           >
-            I thrive on turning complex challenges into seamless user experiences.
+            Turning complex problems into smooth digital experiences. 
 
           </span>
           <div className=" introText">
