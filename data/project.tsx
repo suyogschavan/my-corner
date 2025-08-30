@@ -6,6 +6,11 @@ export const projects = [
       "https://github.com/suyogschavan/jobLister/blob/main/public/JobLister.png?raw=true",
   },
   {
+    title: "E-Commerce Website",
+    link: "https://hehe-store.vercel.app/",
+    thumbnail: "",
+  },
+  {
     title: "URL Scraper",
     link: "https://github.com/suyogschavan/url_scraper",
     thumbnail:
