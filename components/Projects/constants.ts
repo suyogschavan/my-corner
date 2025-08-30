@@ -9,11 +9,25 @@ export const projects: Project[] = [
     role: "Backend Developer",
   },
   {
+    title: "Functional E-commerce website",
+    src: "e-comm.png",
+    color: "#dbeafe",
+    url: "https://hehe-store.vercel.app/",
+    role: "Frontend Developer",
+  },
+  {
     title: "LinkedIn Job Scrapper",
     src: "scrapper.png",
     color: "#dbeafe",
     url: "https://youtu.be/AUaILyDLuu4",
     role: "Fullstack Developer",
+  },
+  {
+    title: "Check-Holidays App",
+    src: "holiday.png",
+    color: "#dbeafe",
+    url: "https://check-holidays.vercel.app/",
+    role: "Frontend Developer",
   },
   {
     title: "E-Comm APIs",
