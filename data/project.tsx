@@ -8,7 +8,12 @@ export const projects = [
   {
     title: "E-Commerce Website",
     link: "https://hehe-store.vercel.app/",
-    thumbnail: "",
+    thumbnail: "https://github.com/suyogschavan/my-corner/blob/main/public/static/images/project/e-comm.png?raw=true",
+  },
+  {
+    title: "Check Holiday App",
+    link: "https://check-holidays.vercel.app/",
+    thumbnail: "https://github.com/suyogschavan/my-corner/blob/main/public/static/images/project/holiday.png?raw=true",
   },
   {
     title: "URL Scraper",
