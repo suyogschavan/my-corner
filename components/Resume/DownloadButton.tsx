@@ -22,11 +22,12 @@ export default function DownloadButton({ href }: { href: string }) {
           onClick={handleClick}
           className="inline-flex items-center gap-2 rounded-lg 
             bg-gradient-to-r from-primary-500 to-gradient-3-end 
-            px-6 py-3 text-sm font-semibold text-white shadow-lg 
-            transition-all hover:shadow-primary-500/40"
+            px-6 py-3 text-sm font-semibold 
+            whit:text-black dark:text-white 
+            shadow-lg transition-all hover:shadow-primary-500/40"
         >
           <Download className="h-5 w-5" />
-          Download Resume
+          <span className="whitespace-nowrap">Download Resume</span>
         </Link>
       </motion.div>
 
@@ -37,9 +38,11 @@ export default function DownloadButton({ href }: { href: string }) {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 10 }}
             className="absolute left-1/2 top-full mt-2 -translate-x-1/2 
-              rounded-lg bg-gray-800 px-4 py-2 text-sm text-white shadow-lg"
+              rounded-lg bg-gray-100 text-gray-900 
+              dark:bg-gray-800 dark:text-white 
+              px-4 py-2 text-sm shadow-lg"
           >
-            <CheckCircle className="mr-1 inline h-4 w-4 text-green-400" />
+            <CheckCircle className="mr-1 inline h-4 w-4 text-green-500" />
             Resume is downloading...
           </motion.div>
         )}
