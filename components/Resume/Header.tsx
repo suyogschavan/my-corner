@@ -11,6 +11,7 @@ import {
   Download,
 } from "lucide-react";
 import { ResumeData } from "./types";
+import DownloadButton from "./DownloadButton";
 
 export default function Header({
   data,
@@ -77,14 +78,7 @@ export default function Header({
               <MapPin className="h-4 w-4" /> {data.location}
             </span>
           )}
-          {onDownload && (
-            <button
-              onClick={onDownload}
-              className="inline-flex items-center gap-1 rounded-full border px-3 py-1"
-            >
-              <Download className="h-4 w-4" /> PDF
-            </button>
-          )}
+          {onDownload && <DownloadButton href="/suyog_cv_sept.pdf" />}
         </div>
       </div>
 

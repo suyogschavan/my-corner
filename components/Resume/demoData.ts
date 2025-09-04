@@ -5,7 +5,7 @@ export const demoData: ResumeData = {
     name: "Suyog Chavan",
     label: "Full‑Stack Developer",
     email: "suyogschavan03@gmail.com",
-    phone: "+91 9022894248",
+    phone: "+91 8261821410",
     url: "https://suyog.site",
     location: "Pune, India",
     profiles: [

@@ -9,8 +9,10 @@ import SkillsGrid from "./SkillsGrid";
 import EducationList from "./EducationList";
 import CertificationsList from "./CertificationsList";
 import SectionHeader from "./SectionHeader";
+import DownloadButton from "./DownloadButton";
 import { ResumeData } from "./types";
 import { demoData } from "./demoData";
+import Link from "../Link";
 
 export default function ResumeShowcase({
   data = demoData,
@@ -35,42 +37,57 @@ export default function ResumeShowcase({
 
       {hasExperience && (
         <div>
-          <SectionHeader title="Experience" icon={<Briefcase className="h-5 w-5" />} />
+          <SectionHeader
+            title="Experience"
+            icon={<Briefcase className="h-5 w-5" />}
+          />
           <ExperienceTimeline items={data.experience!} />
         </div>
       )}
 
       {hasProjects && (
         <div>
-          <SectionHeader title="Projects" icon={<FolderGit2 className="h-5 w-5" />}/>
+          <SectionHeader
+            title="Projects"
+            icon={<FolderGit2 className="h-5 w-5" />}
+          />
           <ProjectsGrid items={data.projects!} />
         </div>
       )}
 
       {hasSkills && (
         <div>
-          <SectionHeader title="Technical Skills"  icon={<Cpu className="h-5 w-5" />} />
+          <SectionHeader
+            title="Technical Skills"
+            icon={<Cpu className="h-5 w-5" />}
+          />
           <SkillsGrid items={data.skills!} />
         </div>
       )}
 
       {hasEducation && (
         <div>
-          <SectionHeader title="Education"  icon={<GraduationCap className="h-5 w-5" />}/>
+          <SectionHeader
+            title="Education"
+            icon={<GraduationCap className="h-5 w-5" />}
+          />
           <EducationList items={data.education!} />
         </div>
       )}
 
       {hasCerts && (
         <div>
-          <SectionHeader title="Certifications" icon={<Award className="h-5 w-5" />}/>
+          <SectionHeader
+            title="Certifications"
+            icon={<Award className="h-5 w-5" />}
+          />
           <CertificationsList items={data.certifications!} />
         </div>
       )}
-
-      <div className="pb-6 text-center text-xs opacity-60">
-        Last updated automatically when data changes ✨
+      <div className="flex justify-center pt-8">
+        <DownloadButton href="/suyog_cv_sept.pdf"/>
       </div>
+
     </motion.section>
   );
 }

@@ -6,6 +6,7 @@ import { AnchorHTMLAttributes, DetailedHTMLProps } from "react";
 
 const CustomLink = ({
   href,
+  download,
   ...rest
 }: DetailedHTMLProps<
   AnchorHTMLAttributes<HTMLAnchorElement>,
@@ -13,6 +14,15 @@ const CustomLink = ({
 >) => {
   const isInternalLink = href && href.startsWith("/");
   const isAnchorLink = href && href.startsWith("#");
+
+  const isFileDownload = download || (href && href.endsWith(".pdf"));
+
+  // If it's a file download, skip Next.js <Link>
+  if (isFileDownload) {
+    return (
+      <LinkButton href={href} download={download} {...rest} />
+    );
+  }
 
   if (isInternalLink) {
     return (
@@ -31,6 +41,7 @@ const CustomLink = ({
       target="_blank"
       rel="noopener noreferrer"
       href={href}
+      download={download}   
       {...rest}
     />
   );
