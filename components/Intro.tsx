@@ -74,7 +74,7 @@ export default function Intro() {
                 href="/projects"
                 className="underline-magical  text-md w-max cursor-pointer sm:text-lg md:text-xl xl:text-2xl"
               >
-                see my work &rarr;
+                see my work &rarr;  
               </Link>
           </div>
         </div>
