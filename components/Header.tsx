@@ -44,9 +44,14 @@ export default function Header() {
                     })}
                     aria-label={title}
                   >
-                    <span className="font-semibold tracking-wide text-gray-900 dark:text-gray-100">
+                    {title==="Resume"? <span className="font-semibold tracking-wide text-[#F20089] dark:text-[#F20089]">
                       {title}
-                    </span>
+                    </span> : <span className="font-semibold tracking-wide text-gray-900 dark:text-gray-100">
+                      {title}
+                    </span>}
+                    {/* <span className="font-semibold tracking-wide text-gray-900 dark:text-gray-100">
+                      {title}
+                    </span> */}
                   </Link>
                 );
               })}

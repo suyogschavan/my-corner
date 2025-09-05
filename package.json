@@ -23,6 +23,7 @@
     "cmdk": "^1.0.0",
     "framer-motion": "^11.3.7",
     "gsap": "^3.12.5",
+    "lucide-react": "^0.542.0",
     "magic.css": "^1.4.8",
     "mini-svg-data-uri": "^1.4.4",
     "next": "^14.2.4",

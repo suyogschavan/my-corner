@@ -39,10 +39,10 @@ export default function Hero(): ReactElement {
                 I build things for the web.
               </h2>
               <Link
-                href="/about"
+                href="/resume"
                 className="underline-magical text-md w-max cursor-pointer sm:text-lg md:text-xl xl:text-2xl"
               >
-                Read more about me &rarr;
+                Checkout my resume &rarr;
               </Link>
             </div>
             <motion.div
