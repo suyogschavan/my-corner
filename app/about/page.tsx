@@ -23,14 +23,16 @@ export default function About() {
           occupation="Full stack developer Intern"
         >
           I am a final year BE in Computer Engineering student at{" "}
-          <MyLink href="http://www.sinhgad.edu/#images">SCOE </MyLink>. I am
-          also a Fullstack developer Intern intern at{" "}
+          <MyLink href="http://www.sinhgad.edu/#images">SCOE.</MyLink> {" "}
+          {/* I am */}
+          {/* also a Fullstack developer Intern intern at{" "}
           <MyLink href="https://www.linkedin.com/in/suyogchavan/">
-            TwentyNineth.
-          </MyLink>{" "}
+            TwentyNineth. */}
+          {/* </MyLink>{" "} */}
           I was previously a Software Developer Intern at{" "}
-          <MyLink href="https://www.youtube.com/channel/UCmOvBRxKRCDpYBSKwvFd-Ug/videos">
-            CodixLabs
+          {/* <MyLink href="https://www.youtube.com/channel/UCmOvBRxKRCDpYBSKwvFd-Ug/videos"> */}
+          <MyLink href="https://www.linkedin.com/in/suyogchavan">
+          TwentyNineth
           </MyLink>{" "}
           where I mostly used Node.js to create back-end APIs for the front-ends
           to consume. Now I am more focused on building fully functional browser

@@ -15,7 +15,7 @@ const siteMetadata = {
   twitter: "https://x.com/SuyogAsus",
   facebook: "#",
   linkedin: "https://www.linkedin.com/in/suyogchavan/",
-  spotify: "https://open.spotify.com/user/12162121994?si=e685b3546f414967",
+  spotify: "https://open.spotify.com/",
   steam: "https://steamcommunity.com//",
   locale: "en-US",
   comment: {
