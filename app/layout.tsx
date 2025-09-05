@@ -9,6 +9,7 @@ import Header from "@/components/Header";
 import LenisProvider from "@/components/Providers/LenisProvider";
 import ThemeProvider from "@/components/Providers/ThemeProvider";
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export const metadata = {
   title: "Suyog's WebCorner",
@@ -55,6 +56,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
           {/* <Analytics /> */}
         </ThemeProvider>
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
