@@ -18,7 +18,8 @@ export default function CertificationsList({
           viewport={{ once: true, amount: 0.4 }}
           transition={{ duration: 0.35 }}
           className="rounded-2xl border border-border 
-  bg-white dark:bg-white/60 p-4 shadow-sm"
+ bg-white dark:bg-[rgb(18,22,26)] p-4 shadow-sm
+"
         >
           <div className="flex items-start justify-between gap-3">
             <div>
