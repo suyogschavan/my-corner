@@ -5,7 +5,7 @@ export const projects: Project[] = [
     title: "AI PR Reviewer",
     src: "AI-Code-reviewer.png",
     color: "#dbeafe",
-    url: "https://csv-url-metadata-scraper.onrender.com/docs",
+    url: "https://pr-review-app-frontend.vercel.app",
     role: "Full Stack Developer",
   },
   {

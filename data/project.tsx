@@ -4,12 +4,17 @@ export const projects = [
     link: "https://github.com/suyogschavan/jobLister",
     thumbnail:
       "https://github.com/suyogschavan/jobLister/blob/main/public/JobLister.png?raw=true",
-  },
-  {
-    title: "E-Commerce Website",
-    link: "https://hehe-store.vercel.app/",
-    thumbnail: "https://github.com/suyogschavan/my-corner/blob/main/public/static/images/project/e-comm.png?raw=true",
-  },
+    },
+    {
+      title: "AI PR Reviewer",
+      link: "https://pr-review-app-frontend.vercel.app/",
+      thumbnail: "https://github.com/suyogschavan/my-corner/blob/main/public/static/images/project/e-comm.png?raw=true",
+    },
+    {
+      title: "E-Commerce Website",
+      link: "https://hehe-store.vercel.app/",
+      thumbnail: "https://github.com/suyogschavan/my-corner/blob/main/public/static/images/project/e-comm.png?raw=true",
+    },
   {
     title: "Check Holiday App",
     link: "https://check-holidays.vercel.app/",
