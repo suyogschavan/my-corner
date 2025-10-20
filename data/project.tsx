@@ -8,7 +8,8 @@ export const projects = [
     {
       title: "AI PR Reviewer",
       link: "https://pr-review-app-frontend.vercel.app/",
-      thumbnail: "https://raw.githubusercontent.com/suyogschavan/my-corner/refs/heads/main/public/static/images/project/AI-Code-reviewer.png?raw=true",
+      // thumbnail: "https://raw.githubusercontent.com/suyogschavan/my-corner/refs/heads/main/public/static/images/project/AI-Code-reviewer.png?raw=true",
+      thumbnail: "https://github.com/suyogschavan/my-corner/blob/main/public/static/images/project/AI-Code-reviewer.png?raw=true",
     },
     {
       title: "E-Commerce Website",
