@@ -45,10 +45,27 @@ export const demoData: ResumeData = {
   ],
   projects: [
     {
+      name: "Smart GitHub Assistant - AI PR reviewer",
+      description:
+        "AI Code Reviewer is a GitHub App that automatically reviews your pull requests, drops feedback like a pro dev, and even draws flow diagrams for you — all powered by AI. No waiting for human reviewers, no back-and-forths. Just push code, sit back, and watch AI do the heavy lifting.",
+      startDate: "Sept 2025",
+      url: "https://pr-review-app-frontend.vercel.app",
+      // repo: "https://github.com/suyogschavan/url_scraper",
+      highlights: [
+        "Handles GitHub webhooks for installations, PRs, and comments automatically.",
+        "AI generates reviews, risk reports, and mermaid diagrams right inside your PRs.",
+        "Secure GitHub OAuth login with repo selection control",
+        "Future-ready architecture — Kafka & Redis planned for scale.",
+      ],
+      tech: ["Node.js", "Express", "MongoDB", "React", "TailwindCSS", "Groq AI SDK", "GitHub APIs", "Azure VM"],
+    },
+    {
       name: "Automated Social Media Data Extraction Tool",
       description:
-        "Hackathon project for parsing Instagram, Facebook, WhatsApp, and Google account data with customizable reports and AI‑driven behavioral analysis.",
+        "Hackathon project for parsing Instagram, Facebook, WhatsApp, and Google account data with customizable reports and AI-driven behavioral analysis. Implements automated parsing pipelines, modular backend design, and real-time reporting. Features interactive dashboards, smart insights, and scalable architecture for large datasets.",
       startDate: "Aug 2024",
+      url: "https://github.com/suyogschavan/SocialMediaParser-latest",
+      repo: "https://github.com/suyogschavan/url_scraper",
       highlights: [
         "Appium and Selenium for automation",
         "Python + Java backend parsing logic",
@@ -59,7 +76,7 @@ export const demoData: ResumeData = {
     {
       name: "URL Scraper API",
       description:
-        "FastAPI‑based REST API for URL metadata extraction with Celery task queue and monitoring.",
+        "FastAPI-based REST API for URL metadata extraction with Celery task queue and monitoring. Implements asynchronous scraping, caching, and retry mechanisms for reliability. Built with Redis, Docker, and Prometheus for scalable task orchestration.",
       startDate: "Jan 2025",
       url: "https://csv-url-metadata-scraper.onrender.com/docs",
       repo: "https://github.com/suyogschavan/url_scraper",
@@ -74,7 +91,7 @@ export const demoData: ResumeData = {
     {
       name: "E‑Commerce Website (MERN)",
       description:
-        "Full‑stack store with add to cart, order tracking, and responsive UI.",
+        "Full-stack store with add to cart, order tracking, and responsive UI. End-to-end eCommerce solution with secure payments and dashboard. Optimized for performance, responsiveness, and delightful user experience.",
       startDate: "Oct 2024",
       url: "https://hehe-store.vercel.app",
       repo: "https://github.com/suyogschavan/Practicing-React",
@@ -88,7 +105,7 @@ export const demoData: ResumeData = {
     {
       name: "LinkedIn Jobs Scraper (Extension)",
       description:
-        "Chrome extension to extract LinkedIn job listings with DOM parsing.",
+        "Chrome extension to extract LinkedIn job listings with DOM parsing. Implements efficient data scraping, filtering, and CSV export capabilities. Developed using JavaScript, Chrome APIs, and asynchronous event handling.",
       startDate: "Aug 2024",
       repo: "https://github.com/suyogschavan/jobscrapper",
       highlights: [
